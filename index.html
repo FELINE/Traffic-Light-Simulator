@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CPSC 1045 TrafficLights Simulator</title>
+    <style type="text/css">
+        .controls {
+            float: left;
+        }
+        
+        button {
+            font-size: 1.2em;
+            padding: 20px;
+            margin: 20px;
+        }
+        /* theCanvas styles */
+        
+        #theCanvas {
+            border: 1px solid #000000;
+            float: left;
+        }
+    </style>
+
+</head>
+<body>
+    <canvas id="theCanvas" width=200 height=200>
+        If you are seeing this, you need to upgrade your browser!
+    </canvas>
+    
+    <div class='controls'>
+        <button id='change'>Change</button>
+        <br>
+        <button id='animate' value='start'>Start Simulation</button>
+        <br>
+        <button id='caution'>Caution Mode</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
